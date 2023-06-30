@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Dmitry Smyrnov</title>
+    <link>https://paradox48.github.io/posts/</link>
+    <description>Recent content in Home on Dmitry Smyrnov</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://paradox48.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My simple burger menu with animation</title>
+      <link>https://paradox48.github.io/posts/menu/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://paradox48.github.io/posts/menu/</guid>
+      <description>You need install tailwind and framer-motion for some animations
+npm i tailwind framer-motion also i get &amp;ldquo;useMediaQuery&amp;rdquo; in usehooks-ts.com
+import { useEffect, useState } from &amp;#39;react&amp;#39; export function useMediaQuery(query: string): boolean { const getMatches = (query: string): boolean =&amp;gt; { // Prevents SSR issues if (typeof window !== &amp;#39;undefined&amp;#39;) { return window.matchMedia(query).matches } return false } const [matches, setMatches] = useState&amp;lt;boolean&amp;gt;(getMatches(query)) function handleChange() { setMatches(getMatches(query)) } useEffect(() =&amp;gt; { const matchMedia = window.</description>
+    </item>
+    
+  </channel>
+</rss>
