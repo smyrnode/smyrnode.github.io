@@ -15,9 +15,9 @@ tags:
 
 You need install tailwind and framer-motion for some animations
 ``` bash
-npm i tailwind framer-motion
+npm i tailwindcss framer-motion
 ````
-also i get "useMediaQuery" in [usehooks-ts.com](usehooks-ts.com)
+also i get "useMediaQuery" from [usehooks-ts.com](usehooks-ts.com)
 
 
 ``` ts
@@ -64,7 +64,7 @@ export function useMediaQuery(query: string): boolean {
   return matches
 }
 ```
-
+Menu component:
 
 ``` ts
 import {motion} from 'framer-motion'
