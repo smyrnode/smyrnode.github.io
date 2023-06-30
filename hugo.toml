@@ -1,4 +1,4 @@
-baseURL = 'http://paradox48.github.io/'
+baseURL = 'https://paradox48.github.io/'
 # This is what goes in <html lang="">
 languageCode = 'en-us'
 title = 'Dmitry Smyrnov'
