@@ -1,5 +1,5 @@
 ---
-title: VSCode workspace
+title: VSCode folder structurein a project
 date: 2023-08-16
 author: Dmitry
 description: VSCode workspace config for feature slice design
@@ -11,7 +11,6 @@ tags:
   - architecture
 ---
 
-# VSCode workspace
 First create in a root directory file with .code-workspace extension
 for example `custom.code-workspace`
 and add this code for Feature slice design 
