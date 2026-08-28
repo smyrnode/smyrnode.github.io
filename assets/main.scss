@@ -1,0 +1,173 @@
+---
+---
+
+@charset "utf-8";
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Verdana", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #000000;
+  background: #d4d0c8;
+  padding: 20px 0;
+}
+
+a {
+  color: #0000cc;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #551a8b;
+}
+
+a:hover {
+  color: #cc0000;
+  background-color: #ffffcc;
+  text-decoration: underline;
+}
+
+.retro-wrapper {
+  width: 760px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #808080;
+  padding: 24px;
+}
+
+.site-header {
+  border-bottom: 2px solid #000000;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+}
+
+.site-header h1 {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 34px;
+  font-weight: normal;
+  color: #000000;
+  margin: 0 0 4px;
+}
+
+.site-header h1 em {
+  font-style: italic;
+  color: #333333;
+}
+
+.site-header p {
+  margin: 8px 0 0;
+  text-align: justify;
+}
+
+.section {
+  margin: 0 0 24px;
+}
+
+.section p {
+  margin: 0 0 10px;
+  text-align: justify;
+}
+
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.skills-table th,
+.skills-table td {
+  border: 1px solid #999999;
+  padding: 6px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.skills-table th {
+  background: #eeeeee;
+  font-weight: bold;
+}
+
+.skills-table .category {
+  font-weight: bold;
+  width: 160px;
+  background: #f6f6f6;
+}
+
+.skills-table tr:nth-child(even) td {
+  background: #fafafa;
+}
+
+.projects {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.projects li {
+  margin-bottom: 16px;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  background: #fafafa;
+}
+
+.projects li h3 {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 15px;
+  font-weight: normal;
+  margin: 0 0 4px;
+}
+
+.projects li h3 a {
+  text-decoration: none;
+  color: #0000cc;
+}
+
+.projects li h3 a:hover {
+  text-decoration: underline;
+  background: none;
+  color: #cc0000;
+}
+
+.projects li p {
+  font-size: 12px;
+  color: #444444;
+  margin: 0 0 6px;
+}
+
+.tags {
+  font-size: 11px;
+}
+
+.tags span {
+  color: #666666;
+  font-style: italic;
+}
+
+.retro-footer {
+  border-top: 2px solid #000000;
+  margin-top: 24px;
+  padding-top: 12px;
+  font-size: 11px;
+  color: #555555;
+  text-align: center;
+}
+
+.retro-footer a {
+  color: #555555;
+}
+
+.retro-footer a:hover {
+  color: #0000cc;
+  background: none;
+  text-decoration: underline;
+}
+
+.retro-footer .divider {
+  margin: 0 8px;
+  color: #aaaaaa;
+}

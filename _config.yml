@@ -1,0 +1,19 @@
+title: Dmitry Smyrnov — Software Engineer
+description: Software engineer building scalable systems and great products
+author: Dmitry Smyrnov
+email: smyrnovd@gmail.com
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+
+header_pages:
+
+social:
+  github: smyrnode
+  linkedin: d.smyrnov
+  twitter: smyrnode
