@@ -47,7 +47,7 @@ layout: default
   </section>
 
   <footer class="retro-footer">
-    <span>&copy; 2004 Dmitry Smyrnov</span><span class="divider">|</span><a href="mailto:smyrnovd@gmail.com">smyrnovd@gmail.com</a><span class="divider">|</span><a href="https://github.com/smyrnode" target="_blank" rel="noopener">github</a><span class="divider">|</span><a href="https://linkedin.com/in/d.smyrnov" target="_blank" rel="noopener">linkedin</a>
+    <span>&copy; 2004 Dmitry Smyrnov</span><span class="divider">|</span><a href="mailto:smyrnovd@gmail.com">smyrnovd@gmail.com</a><span class="divider">|</span><a href="https://github.com/smyrnode" target="_blank" rel="noopener">github</a><span class="divider">|</span><a href="https://www.linkedin.com/in/smyrnovd/" target="_blank" rel="noopener">linkedin</a>
   </footer>
 
 </div>
