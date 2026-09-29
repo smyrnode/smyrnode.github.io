@@ -5,7 +5,7 @@ layout: default
 <div class="retro-wrapper">
 
   <header class="site-header">
-    <h1>Dmitry Smyrnov <em>&mdash; Software Developer</em></h1>
+    <h1>Dmytro Smyrnov <em>&mdash; Software Developer</em></h1>
     <p>I build web applications and automations end to end &mdash; from database to deployment.</p>
     <p>TypeScript, .NET, PHP/Laravel, Python. Growing into DevOps.</p>
     <p>Based in Thessaloniki, Greece. Open to backend / DevOps roles.</p>
@@ -13,7 +13,7 @@ layout: default
   </header>
 
   <section class="section">
-    <p>Hi, I'm Dmitry &mdash; a software developer based in Thessaloniki, Greece. Since 2023 I've been working with clients as a freelancer: CRMs, booking systems, business websites and internal tools. Before that I spent years writing code for fun &mdash; automations, bots and utilities &mdash; and earned a Master's degree in Applied Informatics at the University of Macedonia.</p>
+    <p>Hi, I'm Dmytro &mdash; a software developer based in Thessaloniki, Greece. Since 2023 I've been working with clients as a freelancer: CRMs, booking systems, business websites and internal tools. Before that I spent years writing code for fun &mdash; automations, bots and utilities &mdash; and earned a Master's degree in Applied Informatics at the University of Macedonia.</p>
     <p>I work across the stack: TypeScript/Node.js and React on the frontend, .NET and PHP/Laravel on the backend, Python for automation. I care about clean, maintainable code and shipping end to end. I'm currently deepening my infrastructure skills &mdash; Docker, Linux, AWS and CI/CD &mdash; on the way to backend / DevOps roles.</p>
     <p>Outside client work I contribute to open source: a merged HLS playback fix in nodecast-tv-plus and a QML language switcher for Hyprland Linux.</p>
   </section>
@@ -50,11 +50,11 @@ layout: default
         <p>ASP.NET Core Web API + React front office: authentication, roles, CRUD workflows and reporting for day-to-day business operations.</p>
       </li>
       <li>
-        <h3><a href="https://github.com/smyrnode" target="_blank" rel="noopener">inspector</a> &mdash; monitoring bot (Python)</h3>
+        <h3><a href="https://github.com/smyrnode/inspector" target="_blank" rel="noopener">inspector</a> &mdash; monitoring bot (Python)</h3>
         <p>Polls mining pool APIs, detects hashrate drops and sends instant alerts (Telegram). Written during the mining boom &mdash; still a good example of pragmatic automation.</p>
       </li>
       <li>
-        <h3><a href="https://github.com/smyrnode" target="_blank" rel="noopener">macos-keyboard-toggle</a> &mdash; Linux desktop tool (QML)</h3>
+        <h3><a href="https://github.com/smyrnode/macos-keyboard-toggle" target="_blank" rel="noopener">macos-keyboard-toggle</a> &mdash; Linux desktop tool (QML)</h3>
         <p>macOS-style input language switcher and indicator for Omarchy / Hyprland Linux. 30+ commits, distributed as a plugin.</p>
       </li>
     </ul>
@@ -66,7 +66,7 @@ layout: default
   </section>
 
   <footer class="retro-footer" id="contact">
-    <span>&copy; 2004 Dmitry Smyrnov</span><span class="divider">|</span><span>Thessaloniki, Greece</span><span class="divider">|</span><a href="mailto:smyrnovd@gmail.com">smyrnovd@gmail.com</a><span class="divider">|</span><a href="https://github.com/smyrnode" target="_blank" rel="noopener">github.com/smyrnode</a><span class="divider">|</span><a href="https://www.linkedin.com/in/smyrnovd/" target="_blank" rel="noopener">linkedin.com/in/smyrnode</a>
+    <span>&copy; 2004 Dmytro Smyrnov</span><span class="divider">|</span><span>Thessaloniki, Greece</span><span class="divider">|</span><a href="mailto:smyrnovd@gmail.com">smyrnovd@gmail.com</a><span class="divider">|</span><a href="https://github.com/smyrnode" target="_blank" rel="noopener">github.com/smyrnode</a><span class="divider">|</span><a href="https://www.linkedin.com/in/smyrnovd/" target="_blank" rel="noopener">linkedin.com/in/smyrnode</a>
   </footer>
 
 </div>

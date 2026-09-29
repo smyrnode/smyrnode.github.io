@@ -1,4 +1,4 @@
-# Dmitry — Personal Portfolio Site
+# Dmytro — Personal Portfolio Site
 
 A minimal, fast personal portfolio website built with [Jekyll](https://jekyllrb.com/) and the [Minima](https://github.com/jekyll/minima) theme. Deployed on GitHub Pages.
 
