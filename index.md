@@ -50,43 +50,23 @@ layout: default
         <p>ASP.NET Core Web API + React front office: authentication, roles, CRUD workflows and reporting for day-to-day business operations.</p>
       </li>
       <li>
-        <h3><a href="https://github.com/smyrnode/inspector" target="_blank" rel="noopener">inspector</a> &mdash; monitoring bot (Python)</h3>
+        <h3><a href="https://github.com/smyrnode" target="_blank" rel="noopener">inspector</a> &mdash; monitoring bot (Python)</h3>
         <p>Polls mining pool APIs, detects hashrate drops and sends instant alerts (Telegram). Written during the mining boom &mdash; still a good example of pragmatic automation.</p>
       </li>
       <li>
-        <h3><a href="https://github.com/smyrnode/macos-keyboard-toggle" target="_blank" rel="noopener">macos-keyboard-toggle</a> &mdash; Linux desktop tool (QML)</h3>
+        <h3><a href="https://github.com/smyrnode" target="_blank" rel="noopener">macos-keyboard-toggle</a> &mdash; Linux desktop tool (QML)</h3>
         <p>macOS-style input language switcher and indicator for Omarchy / Hyprland Linux. 30+ commits, distributed as a plugin.</p>
       </li>
-      <li>
-        <h3>Also delivered: WordPress websites</h3>
-        <p>Business websites for an insurance agency and a kitesurfing school.</p>
-      </li>
     </ul>
+    <p>Also delivered: WordPress websites for an insurance agency and a kitesurfing school.</p>
   </section>
 
   <section class="section">
-    <ul class="projects">
-      <li>
-        <h3>nodecast-tv-plus &mdash; HLS playback fix</h3>
-        <p>Fix for scheme-relative HLS playlist URLs (merged, reviewed upstream).</p>
-      </li>
-      <li>
-        <h3><a href="https://github.com/smyrnode/macos-keyboard-toggle" target="_blank" rel="noopener">macos-keyboard-toggle</a> &mdash; for Hyprland</h3>
-        <p>macOS-style input language switcher, distributed as an Omarchy / Hyprland plugin.</p>
-      </li>
-      <li>
-        <h3>Omarchy ecosystem</h3>
-        <p>Bug reports and code reviews in the Omarchy ecosystem.</p>
-      </li>
-      <li>
-        <h3>GitHub</h3>
-        <p><a href="https://github.com/smyrnode" target="_blank" rel="noopener">github.com/smyrnode</a></p>
-      </li>
-    </ul>
+    <p>Fix for scheme-relative HLS playlist URLs in nodecast-tv-plus (merged, reviewed upstream) &middot; macos-keyboard-toggle for Hyprland &middot; bug reports and code reviews in the Omarchy ecosystem &middot; GitHub: <a href="https://github.com/smyrnode" target="_blank" rel="noopener">github.com/smyrnode</a></p>
   </section>
 
   <footer class="retro-footer" id="contact">
-    <span>&copy; 2009 Dmitry Smyrnov</span><span class="divider">|</span><span>Thessaloniki, Greece</span><span class="divider">|</span><a href="mailto:smyrnovd@gmail.com">smyrnovd@gmail.com</a><span class="divider">|</span><a href="https://github.com/smyrnode" target="_blank" rel="noopener">github.com/smyrnode</a><span class="divider">|</span><a href="https://www.linkedin.com/in/smyrnovd/" target="_blank" rel="noopener">linkedin.com/in/smyrnode</a>
+    <span>&copy; 2004 Dmitry Smyrnov</span><span class="divider">|</span><span>Thessaloniki, Greece</span><span class="divider">|</span><a href="mailto:smyrnovd@gmail.com">smyrnovd@gmail.com</a><span class="divider">|</span><a href="https://github.com/smyrnode" target="_blank" rel="noopener">github.com/smyrnode</a><span class="divider">|</span><a href="https://www.linkedin.com/in/smyrnovd/" target="_blank" rel="noopener">linkedin.com/in/smyrnode</a>
   </footer>
 
 </div>
