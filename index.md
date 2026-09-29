@@ -5,49 +5,68 @@ layout: default
 <div class="retro-wrapper">
 
   <header class="site-header">
-    <h1>Dmitry Smyrnov <em>&mdash; Software Engineer</em></h1>
-    <p>I build reliable backends, distributed systems, and the tools that make developers more productive. I care about clean, maintainable solutions and getting the details right.</p>
+    <h1>Dmitry Smyrnov <em>&mdash; Software Developer</em></h1>
+    <p>I build web applications and automations end to end &mdash; from database to deployment.</p>
+    <p>TypeScript, .NET, PHP/Laravel, Python. Growing into DevOps.</p>
+    <p>Based in Thessaloniki, Greece. Open to backend / DevOps roles.</p>
+    <p>[<a href="#projects">View projects</a>] [<a href="#contact">Contact me</a>] [<a href="https://github.com/smyrnode" target="_blank" rel="noopener">GitHub</a>] [<a href="https://www.linkedin.com/in/smyrnovd/" target="_blank" rel="noopener">LinkedIn</a>]</p>
   </header>
+
+  <section class="section">
+    <p>Hi, I'm Dmitry &mdash; a software developer based in Thessaloniki, Greece. Since 2023 I've been working with clients as a freelancer: CRMs, booking systems, business websites and internal tools. Before that I spent years writing code for fun &mdash; automations, bots and utilities &mdash; and earned a Master's degree in Applied Informatics at the University of Macedonia.</p>
+    <p>I work across the stack: TypeScript/Node.js and React on the frontend, .NET and PHP/Laravel on the backend, Python for automation. I care about clean, maintainable code and shipping end to end. I'm currently deepening my infrastructure skills &mdash; Docker, Linux, AWS and CI/CD &mdash; on the way to backend / DevOps roles.</p>
+    <p>Outside client work I contribute to open source: a merged HLS playback fix in nodecast-tv-plus and a QML language switcher for Hyprland Linux.</p>
+  </section>
 
   <section class="section">
     <table class="skills-table">
       <tr>
         <td class="category">Languages</td>
-        <td>Go, Python, TypeScript / JavaScript, C# / .NET, PHP</td>
+        <td>TypeScript / JavaScript, C# / .NET, PHP, Python, SQL</td>
       </tr>
       <tr>
-        <td class="category">Frameworks &amp; Tools</td>
-        <td>React, Node.js, FastAPI, ASP.NET Core, Laravel, Docker, Kubernetes</td>
+        <td class="category">Frontend</td>
+        <td>React, Next.js, Vue.js, HTML/CSS</td>
       </tr>
       <tr>
-        <td class="category">Infrastructure &amp; Data</td>
-        <td>AWS, GCP, PostgreSQL, Redis, MongoDB, Elasticsearch, CI/CD, GitHub Actions</td>
+        <td class="category">Backend</td>
+        <td>Node.js (NestJS, Express), ASP.NET Core, Laravel, WordPress</td>
+      </tr>
+      <tr>
+        <td class="category">Infrastructure</td>
+        <td>Docker, Linux, AWS, Git, GitHub Actions, REST APIs, Selenium / Playwright</td>
       </tr>
     </table>
   </section>
 
-  <section class="section">
+  <section class="section" id="projects">
     <ul class="projects">
       <li>
-        <h3><a href="https://github.com/smyrnode" target="_blank" rel="noopener">Open Source Contributions</a></h3>
-        <p>Regular contributions focused on Go tooling, CLI applications, and developer productivity software.</p>
-        <p class="tags">Tags: <span>Go</span> &middot; <span>CLI</span> &middot; <span>Open Source</span></p>
+        <h3>Hotel CRM &amp; booking platform (PHP/Laravel, MySQL)</h3>
+        <p>Reservation and room management for a hospitality business (oliva-blanc.ru): bookings, invoicing, admin panel. Full cycle &mdash; design, development, deployment, support.</p>
       </li>
       <li>
-        <h3>Distributed Systems</h3>
-        <p>Design and operation of distributed systems at scale &mdash; microservices, event-driven architecture, and service mesh.</p>
-        <p class="tags">Tags: <span>Kubernetes</span> &middot; <span>gRPC</span> &middot; <span>Observability</span></p>
+        <h3>Internal management system (.NET + React)</h3>
+        <p>ASP.NET Core Web API + React front office: authentication, roles, CRUD workflows and reporting for day-to-day business operations.</p>
       </li>
       <li>
-        <h3>Developer Tooling</h3>
-        <p>Internal tooling and platforms that shorten feedback loops &mdash; CI/CD, local environments, and automation.</p>
-        <p class="tags">Tags: <span>Automation</span> &middot; <span>DX</span> &middot; <span>Platform</span></p>
+        <h3><a href="https://github.com/smyrnode" target="_blank" rel="noopener">inspector</a> &mdash; monitoring bot (Python)</h3>
+        <p>Polls mining pool APIs, detects hashrate drops and sends instant alerts (Telegram). Written during the mining boom &mdash; still a good example of pragmatic automation.</p>
+      </li>
+      <li>
+        <h3><a href="https://github.com/smyrnode" target="_blank" rel="noopener">macos-keyboard-toggle</a> &mdash; Linux desktop tool (QML)</h3>
+        <p>macOS-style input language switcher and indicator for Omarchy / Hyprland Linux. 30+ commits, distributed as a plugin.</p>
       </li>
     </ul>
+    <p>Also delivered: WordPress websites for an insurance agency and a kitesurfing school.</p>
   </section>
 
-  <footer class="retro-footer">
-    <span>&copy; 2004 Dmitry Smyrnov</span><span class="divider">|</span><a href="mailto:smyrnovd@gmail.com">smyrnovd@gmail.com</a><span class="divider">|</span><a href="https://github.com/smyrnode" target="_blank" rel="noopener">github</a><span class="divider">|</span><a href="https://www.linkedin.com/in/smyrnovd/" target="_blank" rel="noopener">linkedin</a>
+  <section class="section">
+    <p>Fix for scheme-relative HLS playlist URLs in nodecast-tv-plus (merged, reviewed upstream) &middot; macos-keyboard-toggle for Hyprland &middot; bug reports and code reviews in the Omarchy ecosystem &middot; GitHub: <a href="https://github.com/smyrnode" target="_blank" rel="noopener">github.com/smyrnode</a></p>
+  </section>
+
+  <footer class="retro-footer" id="contact">
+    <span>&copy; 2004 Dmitry Smyrnov</span><span class="divider">|</span><span>Thessaloniki, Greece</span><span class="divider">|</span><a href="mailto:smyrnovd@gmail.com">smyrnovd@gmail.com</a><span class="divider">|</span><a href="https://github.com/smyrnode" target="_blank" rel="noopener">github.com/smyrnode</a><span class="divider">|</span><a href="https://www.linkedin.com/in/smyrnovd/" target="_blank" rel="noopener">linkedin.com/in/smyrnode</a>
   </footer>
 
 </div>
