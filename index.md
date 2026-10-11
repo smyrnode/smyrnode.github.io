@@ -4,12 +4,19 @@ layout: default
 
 <div class="retro-wrapper">
 
+  <div class="titlebar">
+    <span class="title">Dmytro Smyrnov &mdash; Home Page</span>
+    <span class="controls"><span>_</span><span>&#9633;</span><span>&times;</span></span>
+  </div>
+
+  <div class="window-body">
+
   <header class="site-header">
     <h1>Dmytro Smyrnov <em>&mdash; Software Developer</em></h1>
     <p>I build web applications and automations end to end &mdash; from database to deployment.</p>
     <p>TypeScript, .NET, PHP/Laravel, Python. Growing into DevOps.</p>
     <p>Based in Thessaloniki, Greece. Open to backend / DevOps roles.</p>
-    <p>[<a href="#projects">View projects</a>] [<a href="#contact">Contact me</a>] [<a href="https://github.com/smyrnode" target="_blank" rel="noopener">GitHub</a>] [<a href="https://www.linkedin.com/in/smyrnovd/" target="_blank" rel="noopener">LinkedIn</a>]</p>
+    <nav class="retro-nav"><a href="#projects">View projects</a><a href="#contact">Contact me</a><a href="https://github.com/smyrnode" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/smyrnovd/" target="_blank" rel="noopener">LinkedIn</a></nav>
   </header>
 
   <section class="section">
@@ -61,8 +68,14 @@ layout: default
     <p>Fix for scheme-relative HLS playlist URLs in nodecast-tv-plus (merged, reviewed upstream) &middot; lingua for Hyprland &middot; bug reports and code reviews in the Omarchy ecosystem &middot; GitHub: <a href="https://github.com/smyrnode" target="_blank" rel="noopener">github.com/smyrnode</a></p>
   </section>
 
+  </div>
+
   <footer class="retro-footer" id="contact">
-    <span>&copy; 2004 Dmytro Smyrnov</span><span class="divider">|</span><span>Thessaloniki, Greece</span><span class="divider">|</span><a href="mailto:smyrnovd@gmail.com">smyrnovd@gmail.com</a><span class="divider">|</span><a href="https://github.com/smyrnode" target="_blank" rel="noopener">github.com/smyrnode</a><span class="divider">|</span><a href="https://www.linkedin.com/in/smyrnovd/" target="_blank" rel="noopener">linkedin.com/in/smyrnode</a>
+    <span class="panel">&copy; 2004 Dmytro Smyrnov</span>
+    <span class="panel">Thessaloniki, Greece</span>
+    <span class="panel"><a href="mailto:smyrnovd@gmail.com">smyrnovd@gmail.com</a></span>
+    <span class="panel"><a href="https://github.com/smyrnode" target="_blank" rel="noopener">github.com/smyrnode</a></span>
+    <span class="panel"><a href="https://www.linkedin.com/in/smyrnovd/" target="_blank" rel="noopener">linkedin.com/in/smyrnovd</a></span>
   </footer>
 
 </div>
