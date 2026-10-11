@@ -16,13 +16,13 @@ layout: default
     <p>I build web applications and automations end to end &mdash; from database to deployment.</p>
     <p>Node.js, React, .NET/C#, PostgreSQL, Docker. Growing into DevOps.</p>
     <p>Based in Thessaloniki, Greece. Remote available.</p>
-    <nav class="retro-nav"><a href="#projects">View projects</a><a href="#contact">Contact me</a><a href="https://github.com/smyrnode" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/smyrnovd/" target="_blank" rel="noopener">LinkedIn</a></nav>
+    <nav class="retro-nav"><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact me</a><a href="https://github.com/smyrnode" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/smyrnovd/" target="_blank" rel="noopener">LinkedIn</a></nav>
   </header>
 
   <section class="section">
-    <p>Hi, I'm Dmytro &mdash; a full-stack engineer based in Thessaloniki, Greece. Since 2023 I've been working with clients as a freelancer: CRMs, booking systems, business websites and internal tools. Before that I spent years writing code for fun &mdash; automations, bots and utilities &mdash; and earned a Bachelor's degree in Applied Informatics at the <a href="https://www.uom.gr/" target="_blank" rel="noopener">University of Macedonia</a> (2013).</p>
+    <p>Hi, I'm Dmytro &mdash; a full-stack engineer based in Thessaloniki, Greece. Since 2023 I've been building commercial web applications: first on a remote FinTech analytics platform, and since 2026 for clients as a freelancer &mdash; CRMs, booking systems, business websites and internal tools. Before that I spent years writing code for fun &mdash; automations, bots and utilities &mdash; and earned a Bachelor's degree in Applied Informatics at the <a href="https://www.uom.gr/" target="_blank" rel="noopener">University of Macedonia</a> (2013).</p>
     <p>I work across the stack: React, Next.js and Node.js on the frontend and backend, .NET and PHP/Laravel on the server, Python for automation. I care about clean, maintainable code and shipping end to end. I'm currently growing into DevOps &mdash; Docker, Nginx, Linux, AWS and CI/CD.</p>
-    <p>Outside client work I contribute to open source: a merged HLS playback fix in nodecast-tv-plus and a QML language switcher for Hyprland Linux.</p>
+    <p>Outside client work I contribute to open source in <a href="https://github.com/MikaelKW/nodecast-tv-plus" target="_blank" rel="noopener">nodecast-tv-plus</a> (<a href="https://github.com/MikaelKW/nodecast-tv-plus/pull/413" target="_blank" rel="noopener">merged fix for proxied HLS playlist URLs</a>).</p>
   </section>
 
   <section class="section">
@@ -66,7 +66,34 @@ layout: default
     </table>
   </section>
 
+  <section class="section" id="experience">
+    <h2>Experience</h2>
+    <ul class="projects">
+      <li>
+        <h3>Full-Stack Developer (Freelance)</h3>
+        <p class="period">2026</p>
+        <p>Solo developer for commercial clients: designed, built, deployed and supported a hotel booking platform and a bakery production management system, plus WordPress customizations and site builds. Details in Projects below.</p>
+        <p class="tags"><span>Tech: Laravel, Vue.js, ASP.NET Core, React, PostgreSQL, MySQL, Docker, WordPress</span></p>
+      </li>
+      <li>
+        <h3>Full-Stack Developer &mdash; FinTech / Crypto Analytics Platform (NDA)</h3>
+        <p class="period">Remote &middot; Apr 2023 &ndash; Oct 2025</p>
+        <ul>
+          <li>Developed and maintained analytical dashboards in React, Next.js and TypeScript.</li>
+          <li>Built reusable UI components and kept a consistent design system.</li>
+          <li>Integrated REST APIs and WebSocket real-time data feeds.</li>
+          <li>Improved performance with lazy loading, SSR and optimised rendering.</li>
+          <li>Managed server state and caching with TanStack Query.</li>
+          <li>Built lightweight REST services in Node.js and Express for internal data processing.</li>
+          <li>Supported deployment workflows with Docker and Git; took part in code reviews.</li>
+        </ul>
+        <p class="tags"><span>Tech: React, Next.js 14, TypeScript, Tailwind CSS, Node.js, Express, Docker, TanStack Query</span></p>
+      </li>
+    </ul>
+  </section>
+
   <section class="section" id="projects">
+    <h2>Projects</h2>
     <ul class="projects">
       <li>
         <h3>Hotel CRM &amp; booking platform (Laravel + Vue.js, MySQL)</h3>
@@ -81,11 +108,6 @@ layout: default
         <p>macOS-style input language switcher and bar indicator for Omarchy / Hyprland Linux: tap to toggle the last two languages, hold to cycle all, manage layouts from a bar panel. Distributed as a plugin.</p>
       </li>
     </ul>
-    <p>Also delivered: WordPress websites for an insurance agency and a kitesurfing school.</p>
-  </section>
-
-  <section class="section">
-    <p>Fix for scheme-relative HLS playlist URLs in nodecast-tv-plus (merged, reviewed upstream) &middot; lingua for Hyprland &middot; bug reports and code reviews in the Omarchy ecosystem &middot; GitHub: <a href="https://github.com/smyrnode" target="_blank" rel="noopener">github.com/smyrnode</a></p>
   </section>
 
   </div>

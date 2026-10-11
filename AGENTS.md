@@ -23,7 +23,7 @@ Single-page site. There is exactly one content page (`index.md`) and one layout 
 - `_config.yml` — site metadata, minima theme, `jekyll-seo-tag` plugin. `header_pages` is intentionally empty.
 - `_layouts/default.html` — **overrides the minima theme layout**. It strips everything: renders only `{%- include head.html -%}` (from the minima gem, brings in SEO tags + stylesheet link) plus `{{ content }}`. No theme header/footer/sidebar. Any layout change must preserve the `head.html` include or SEO/CSS breaks.
 - `index.md` — front matter is just `layout: default`; the body is **raw HTML**, not Markdown. All content (About/Skills/Projects/Contact) is hand-written HTML with custom classes.
-- `assets/main.scss` — all styling lives here (~215 lines). Front matter `---\n---` at the top is **required** for Jekyll to process the SCSS. The design is intentionally retro: fixed 760px `.retro-wrapper`, system font stack (Verdana/Georgia), hex colors only (`#d4d0c8` background, `#0000cc` links), no CSS variables, no media queries.
+- `assets/main.scss` — all styling lives here (~365 lines). Front matter `---\n---` at the top is **required** for Jekyll to process the SCSS. The design is intentionally retro: `.retro-wrapper` is `max-width: 760px`, system font stack (Verdana/Georgia), hex colors only (`#d4d0c8` background, `#0000cc` links), no CSS variables. The only media query is `@media (max-width: 640px)` at the end of the file (stacked skills table, full-width footer panels, smaller paddings); keep mobile overrides there.
 
 ## Conventions / gotchas
 

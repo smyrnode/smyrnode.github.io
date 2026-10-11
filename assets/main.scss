@@ -35,7 +35,8 @@ a:hover {
 /* ---- Window chrome ---- */
 
 .retro-wrapper {
-  width: 760px;
+  max-width: 760px;
+  box-sizing: border-box;
   margin: 0 auto;
   padding: 3px;
   background: #d4d0c8;
@@ -148,6 +149,16 @@ a:hover {
   text-align: justify;
 }
 
+.section h2 {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #000080;
+  margin: 0 0 10px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #808080;
+}
+
 .skills-table {
   width: 100%;
   border-collapse: collapse;
@@ -224,6 +235,27 @@ a:hover {
   margin: 0 0 6px;
 }
 
+.projects li p.period {
+  font-size: 11px;
+  color: #666666;
+  margin: 0 0 6px;
+}
+
+.projects li ul {
+  margin: 0 0 8px;
+  padding-left: 18px;
+  font-size: 12px;
+  color: #444444;
+}
+
+.projects li ul li {
+  margin: 0 0 2px;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  background: none;
+}
+
 .tags {
   font-size: 11px;
 }
@@ -262,4 +294,72 @@ a:hover {
   color: #0000cc;
   background: none;
   text-decoration: underline;
+}
+
+/* ---- Small screens ---- */
+
+@media (max-width: 640px) {
+  body {
+    padding: 8px 0;
+  }
+
+  .retro-wrapper {
+    margin: 0 8px;
+    box-shadow: inset 1px 1px 0 #ffffff, inset -1px -1px 0 #808080, 3px 3px 0 #004040;
+  }
+
+  .titlebar .title {
+    min-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .window-body {
+    padding: 14px 12px;
+  }
+
+  .site-header h1 {
+    font-size: 26px;
+  }
+
+  .site-header h1 em {
+    display: block;
+  }
+
+  .site-header p,
+  .section p {
+    text-align: left;
+  }
+
+  .retro-nav a,
+  .retro-nav a:visited {
+    padding: 6px 14px;
+  }
+
+  .retro-nav a:active {
+    padding: 7px 13px 5px 15px;
+  }
+
+  .skills-table,
+  .skills-table tbody,
+  .skills-table tr,
+  .skills-table td {
+    display: block;
+  }
+
+  .skills-table .category {
+    width: auto;
+    border-bottom: 0;
+  }
+
+  .projects li {
+    padding: 10px 10px 6px;
+  }
+
+  .retro-footer .panel {
+    flex: 1 1 100%;
+    margin-right: 0;
+    overflow-wrap: anywhere;
+  }
 }
