@@ -50,19 +50,15 @@ layout: default
         <p>ASP.NET Core Web API + React front office: authentication, roles, CRUD workflows and reporting for day-to-day business operations.</p>
       </li>
       <li>
-        <h3><a href="https://github.com/smyrnode/inspector" target="_blank" rel="noopener">inspector</a> &mdash; monitoring bot (Python)</h3>
-        <p>Polls mining pool APIs, detects hashrate drops and sends instant alerts (Telegram). Written during the mining boom &mdash; still a good example of pragmatic automation.</p>
-      </li>
-      <li>
-        <h3><a href="https://github.com/smyrnode/macos-keyboard-toggle" target="_blank" rel="noopener">macos-keyboard-toggle</a> &mdash; Linux desktop tool (QML)</h3>
-        <p>macOS-style input language switcher and indicator for Omarchy / Hyprland Linux. 30+ commits, distributed as a plugin.</p>
+        <h3><a href="https://github.com/smyrnode/lingua" target="_blank" rel="noopener">lingua</a> &mdash; Linux desktop tool (QML)</h3>
+        <p>macOS-style input language switcher and bar indicator for Omarchy / Hyprland Linux: tap to toggle the last two languages, hold to cycle all, manage layouts from a bar panel. Distributed as a plugin.</p>
       </li>
     </ul>
     <p>Also delivered: WordPress websites for an insurance agency and a kitesurfing school.</p>
   </section>
 
   <section class="section">
-    <p>Fix for scheme-relative HLS playlist URLs in nodecast-tv-plus (merged, reviewed upstream) &middot; macos-keyboard-toggle for Hyprland &middot; bug reports and code reviews in the Omarchy ecosystem &middot; GitHub: <a href="https://github.com/smyrnode" target="_blank" rel="noopener">github.com/smyrnode</a></p>
+    <p>Fix for scheme-relative HLS playlist URLs in nodecast-tv-plus (merged, reviewed upstream) &middot; lingua for Hyprland &middot; bug reports and code reviews in the Omarchy ecosystem &middot; GitHub: <a href="https://github.com/smyrnode" target="_blank" rel="noopener">github.com/smyrnode</a></p>
   </section>
 
   <footer class="retro-footer" id="contact">
