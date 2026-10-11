@@ -43,7 +43,7 @@ layout: default
     <ul class="projects">
       <li>
         <h3>Hotel CRM &amp; booking platform (PHP/Laravel, MySQL)</h3>
-        <p>Reservation and room management for a hospitality business (oliva-blanc.ru): bookings, invoicing, admin panel. Full cycle &mdash; design, development, deployment, support.</p>
+        <p>Reservation and room management for a hospitality business: bookings, invoicing, admin panel. Full cycle &mdash; design, development, deployment, support.</p>
       </li>
       <li>
         <h3>Internal management system (.NET + React)</h3>
