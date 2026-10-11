@@ -12,36 +12,56 @@ layout: default
   <div class="window-body">
 
   <header class="site-header">
-    <h1>Dmytro Smyrnov <em>&mdash; Software Developer</em></h1>
+    <h1>Dmytro Smyrnov <em>&mdash; Full-Stack Engineer</em></h1>
     <p>I build web applications and automations end to end &mdash; from database to deployment.</p>
-    <p>TypeScript, .NET, PHP/Laravel, Python. Growing into DevOps.</p>
-    <p>Based in Thessaloniki, Greece. Open to backend / DevOps roles.</p>
+    <p>Node.js, React, .NET/C#, PostgreSQL, Docker. Growing into DevOps.</p>
+    <p>Based in Thessaloniki, Greece. Remote available.</p>
     <nav class="retro-nav"><a href="#projects">View projects</a><a href="#contact">Contact me</a><a href="https://github.com/smyrnode" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/smyrnovd/" target="_blank" rel="noopener">LinkedIn</a></nav>
   </header>
 
   <section class="section">
-    <p>Hi, I'm Dmytro &mdash; a software developer based in Thessaloniki, Greece. Since 2023 I've been working with clients as a freelancer: CRMs, booking systems, business websites and internal tools. Before that I spent years writing code for fun &mdash; automations, bots and utilities &mdash; and earned a Master's degree in Applied Informatics at the University of Macedonia.</p>
-    <p>I work across the stack: TypeScript/Node.js and React on the frontend, .NET and PHP/Laravel on the backend, Python for automation. I care about clean, maintainable code and shipping end to end. I'm currently deepening my infrastructure skills &mdash; Docker, Linux, AWS and CI/CD &mdash; on the way to backend / DevOps roles.</p>
+    <p>Hi, I'm Dmytro &mdash; a full-stack engineer based in Thessaloniki, Greece. Since 2023 I've been working with clients as a freelancer: CRMs, booking systems, business websites and internal tools. Before that I spent years writing code for fun &mdash; automations, bots and utilities &mdash; and earned a Bachelor's degree in Applied Informatics at the <a href="https://www.uom.gr/" target="_blank" rel="noopener">University of Macedonia</a> (2013).</p>
+    <p>I work across the stack: React, Next.js and Node.js on the frontend and backend, .NET and PHP/Laravel on the server, Python for automation. I care about clean, maintainable code and shipping end to end. I'm currently growing into DevOps &mdash; Docker, Nginx, Linux, AWS and CI/CD.</p>
     <p>Outside client work I contribute to open source: a merged HLS playback fix in nodecast-tv-plus and a QML language switcher for Hyprland Linux.</p>
   </section>
 
   <section class="section">
     <table class="skills-table">
       <tr>
-        <td class="category">Languages</td>
-        <td>TypeScript / JavaScript, C# / .NET, PHP, Python, SQL</td>
+        <td class="category">Programming</td>
+        <td>TypeScript / JavaScript, C# / .NET, PHP, Python, SQL, Bash</td>
       </tr>
       <tr>
         <td class="category">Frontend</td>
-        <td>React, Next.js, Vue.js, HTML/CSS</td>
+        <td>React, Next.js, Vue.js, Angular, TanStack Query, Zustand, Tailwind CSS, SCSS, HTML/CSS</td>
       </tr>
       <tr>
         <td class="category">Backend</td>
-        <td>Node.js (NestJS, Express), ASP.NET Core, Laravel, WordPress</td>
+        <td>Node.js (NestJS, Express), ASP.NET Core, Laravel, WordPress, REST API, GraphQL</td>
+      </tr>
+      <tr>
+        <td class="category">Databases</td>
+        <td>PostgreSQL, MySQL, MongoDB</td>
       </tr>
       <tr>
         <td class="category">Infrastructure</td>
-        <td>Docker, Linux, AWS, Git, GitHub Actions, REST APIs, Selenium / Playwright</td>
+        <td>Docker, Nginx, Linux, AWS, Git, CI/CD (GitHub Actions)</td>
+      </tr>
+      <tr>
+        <td class="category">Testing &amp; tools</td>
+        <td>Playwright, Vitest, Jest, Selenium, Vite, ESLint, Prettier, Jira / Agile</td>
+      </tr>
+      <tr>
+        <td class="category">AI tools</td>
+        <td>Cursor, Codex, GitHub Copilot, Claude; local models via Ollama and LM Studio</td>
+      </tr>
+      <tr>
+        <td class="category">AI integration</td>
+        <td>MCP servers, LLM APIs (OpenAI, Anthropic), structured output, tool calling, RAG and embeddings, LLM-powered bots and automations</td>
+      </tr>
+      <tr>
+        <td class="category">Spoken languages</td>
+        <td>Greek (fluent), English (B1), Ukrainian / Russian (native)</td>
       </tr>
     </table>
   </section>
@@ -49,7 +69,7 @@ layout: default
   <section class="section" id="projects">
     <ul class="projects">
       <li>
-        <h3>Hotel CRM &amp; booking platform (PHP/Laravel, MySQL)</h3>
+        <h3>Hotel CRM &amp; booking platform (Laravel + Vue.js, MySQL)</h3>
         <p>Reservation and room management for a hospitality business: bookings, invoicing, admin panel. Full cycle &mdash; design, development, deployment, support.</p>
       </li>
       <li>
